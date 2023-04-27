@@ -49,6 +49,53 @@
         li:last-child{
             color: deeppink;
         }
+        button:active{
+            color: red;
+        }
+        button:focus{
+            border: 2px solid red;
+        }
+        a:visited{
+            color: deeppink;
+            font-size: 100px;
+            background-color: orange;
+        }
+        h1:before{
+            content: "😀";
+            color: red;
+            font-size: 30px;
+        }
+        h1:after{
+            content: "👻";
+            color: red;
+        }
+        Pseudo Elements
+        h1::first-letter{
+            color: red;
+            font-size: 30px;
+        }
+        p::first-line{
+            color: orange;
+        }
+
+        p::selection{
+            background-color: red;
+            color: white;
+        }
+        li::marker{
+            content: "@";
+            color: red;
+        }
+        input::placeholder{
+            color: green;
+        }
+
+    /*    input::file-selector-button{
+            color: white;
+            background-color: blue;
+            border: none;
+            border-radius: 10px;
+        }*/
     </style>
 </head>
 <body>

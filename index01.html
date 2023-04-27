@@ -15,6 +15,43 @@
     section>button{
       border: 2px solid black;
       color: red;
+        font-size: 50px;
+    }
+    section>ul>li:nth-child(2){
+        font-size: 30px;
+        color: deeppink;
+    }
+    #test{
+        border: 1px solid black;
+        color: black;
+        font-size: small;
+    }
+    .bgParaagrph{
+        background-color: blue;
+        font-size: 30px;
+        border: 1px solid black;
+        color: white;
+    }
+    .testing{
+        font-size: 35px;
+        color: black;
+    }
+    form input{
+        border: 2px solid blueviolet;
+    }
+    form input::placeholder{
+        color: blueviolet;
+    }
+    form #pic{
+        border: none;
+    }
+
+    form #pic::file-selector-button{
+        border: none;
+        background: blueviolet;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
     }
   </style>
 </head>
@@ -29,6 +66,45 @@
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam asperiores aspernatur aut ducimus eos et ipsum iure libero molestias
     necessitatibus neque, officia omnis optio, repellat rerum veritatis voluptates voluptatum</p>
   <button>Test Button</button>
+</section>
+<section>
+    <h1>This is for testing</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam asperiores aspernatur aut ducimus eos et ipsum iure libero molestias
+        necessitatibus neque, officia omnis optio, repellat rerum veritatis voluptates voluptatum</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam asperiores aspernatur aut ducimus eos et ipsum iure libero molestias
+        necessitatibus neque, officia omnis optio, repellat rerum veritatis voluptates voluptatum</p>
+    <button>Test Button</button>
+</section>
+<section>
+    <h1>This is for testing</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam asperiores aspernatur aut ducimus eos et ipsum iure libero molestias
+        necessitatibus neque, officia omnis optio, repellat rerum veritatis voluptates voluptatum</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam asperiores aspernatur aut ducimus eos et ipsum iure libero molestias
+        necessitatibus neque, officia omnis optio, repellat rerum veritatis voluptates voluptatum</p>
+    <ul>
+        <li>Testing List One</li>
+        <li>Testing List One</li>
+        <li>Testing List One</li>
+    </ul>
+    <button id="test">Test Button</button>
+</section>
+<section>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam asperiores aspernatur aut ducimus eos et ipsum iure libero molestias
+        necessitatibus neque, officia omnis optio, repellat rerum veritatis voluptates voluptatum</p>
+    <p class="bgParaagrph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam asperiores aspernatur aut ducimus eos et ipsum iure libero molestias
+        necessitatibus neque, officia omnis optio, repellat rerum veritatis voluptates voluptatum</p>
+</section>
+<section>
+    <h1 class="testing">Testing</h1>
+    <form>
+        <label for="id">User ID</label>
+        <input type="text" id="id" placeholder="Input Your ID">
+        <label for="name">User Name</label>
+        <input type="text" id="name" placeholder="Input Your Name">
+        <label for="pic">User Name</label>
+        <input type="file" id="pic">
+        <button>Register</button>
+    </form>
 </section>
 </body>
 </html>
